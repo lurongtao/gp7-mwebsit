@@ -1,0 +1,45 @@
+页面布局：
+- swiper的高度随屏幕大小变化自动调整？
+
+ECMAScript：
+- ES6、ES7、ES8
+https://juejin.im/post/5b9cb3336fb9a05d290ee47e
+- 如何对嵌套的对象进行解构
+var user = {
+  id: 123,
+  name: 'hehe',
+  education: {
+    degree: 'Masters'
+  }
+};
+var {education: {degree}} = user;
+console.log(degree);
+
+前后端架构：
+- 正向代理与反向代理
+https://blog.csdn.net/zhanghanboke/article/details/77488894
+https://www.jianshu.com/p/208c02c9dd1d
+
+
+2018-10-09
+SPA: Single Page Application
+
+2018-10-10
+技术栈回顾
+一、gulp
+依赖：node.js, npm, yarn, webpack
+插件：gulp-webserver, gulp-sass(node-sass), gulp-watch, http-proxy-middleware, webpack-stream
+二、Yo
+依赖：sass
+三、handlebars
+依赖：JS
+四、ES6，ES7，ES8
+- 模块化
+- async/await
+- 属性简写
+五、json-server
+六、zepto
+七、自主编写路由
+八、RMVC+SPA
+
+gitlab:(和github相似)
